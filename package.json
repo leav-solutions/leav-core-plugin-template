@@ -1,0 +1,15 @@
+{
+  "name": "core_plugin_template",
+  "version": "0.0.1",
+  "description": "A template for developing a plugin for LEAV Core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.cacom.fr/dev/leav/core-plugin-template"
+  },
+  "author": "",
+  "license": "ISC"
+}
