@@ -1,3 +1,4 @@
+import {IPluginInitModule} from '_types/plugin';
 import {ITemplateExampleApp} from './app/example/exampleApp';
 
 interface IDeps {
@@ -5,7 +6,7 @@ interface IDeps {
     'template.app.example': ITemplateExampleApp;
 }
 
-export default function({'template.app.example': exampleApp}: IDeps) {
+export default function({'template.app.example': exampleApp}: IDeps): IPluginInitModule {
     return {
         init(extensionPoints) {
             extensionPoints.registerGraphQLSchema({
